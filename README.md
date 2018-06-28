@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.com/mwergles/node-api-skeleton.svg?branch=master)](https://travis-ci.com/mwergles/node-api-skeleton)
-
 # Node API Skeleton #
+
+[![Build Status](https://travis-ci.com/mwergles/node-api-skeleton.svg?branch=master)](https://travis-ci.com/mwergles/node-api-skeleton)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
 

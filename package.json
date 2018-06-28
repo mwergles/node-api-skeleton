@@ -7,9 +7,10 @@
     "verbose": "DEBUG=express:* node ./bin/www",
     "inspect": "node --inspect ./bin/www",
     "start": "node ./bin/www",
-    "test": "NODE_ENV=test mocha tests/index.js",
-    "test:functional": "NODE_ENV=test mocha tests/functional/functional-suite.js",
-    "test:unit": "NODE_ENV=test mocha tests/unit/unit-suite.js"
+    "lint": "eslint .",
+    "test": "eslint . && NODE_ENV=test mocha tests/index.js",
+    "test:functional": "eslint . && NODE_ENV=test mocha tests/functional/functional-suite.js",
+    "test:unit": "eslint . && NODE_ENV=test mocha tests/unit/unit-suite.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
