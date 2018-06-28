@@ -1,8 +1,10 @@
-Node version >= 8.0
+[![Build Status](https://travis-ci.com/mwergles/node-api-skeleton.svg?branch=master)](https://travis-ci.com/mwergles/node-api-skeleton)
 
 # Node API Skeleton #
 
 ## Installation
+
+Prerequisites: Node version >= 8.0
 
 Install dependencies
 
